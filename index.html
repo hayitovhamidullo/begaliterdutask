@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mini sayt - HTML, CSS va JavaScript haqida">
+    <meta name="keywords" content="HTML, CSS, JavaScript, frontend, web development">
+    <meta name="author" content="Hayitov Hamidullo">
+    <title>Bosh sahifa</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bosh sahifa</h1>
+        <nav>
+            <a href="#about">Sayt haqida</a> |
+            <a href="about.html">Batafsil sahifa</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Salom, bu mening mini saytim!</h2>
+        <h3>HTML teglar bilan tanishamiz</h3>
+        <h4>CSS uslublari</h4>
+        <h5>Amaliy mashq</h5>
+        <h6>Pastdagi bo‘limni o‘qing</h6>
+
+        <p class="p1">Bu <b>birinchi paragraf</b>. Unda text-indent xususiyati ishlatilgan.</p>
+        <p class="p2">Bu esa ikkinchi paragraf bo‘lib, unda ham text-indent va text-align: justify mavjud.</p>
+        <p>Uchinchi paragraf oddiy ko‘rinishda yozilgan.</p>
+
+        <h3>Rasm</h3>
+        <img src="tabiat.jpg" alt="Tabiat manzarasi" width="300">
+
+        
+        <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/--WKdLZkEB8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="1493085823.mp3" type="audio/mpeg">
+        </audio>
+
+        <h3>Ro‘yxatlar</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <ol>
+            <li>Frontend</li>
+            <li>Backend</li>
+            <li>Database</li>
+        </ol>
+
+        <h3>Jadval</h3>
+        <table border="1">
+            <tr>
+                <th>Kurs</th>
+                <th>Davomiylik</th>
+                <th>Daraja</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>1 oy</td>
+                <td>Boshlang‘ich</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>1 oy</td>
+                <td>O‘rta</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>2 oy</td>
+                <td>Yuqori</td>
+            </tr>
+        </table>
+
+        <h3>Forma</h3>
+        <form action="#" method="post">
+            <label for="ism">Ismingiz:</label><br>
+            <input type="text" id="ism" name="ism" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="xabar">Xabar:</label><br>
+            <textarea id="xabar" name="xabar" rows="4" cols="50" required></textarea><br>
+            <button type="submit">Yuborish</button>
+        </form>
+
+        <section id="about">
+            <h2>Sayt haqida</h2>
+            <p>Bu sayt HTML va CSS asoslarini amalda o‘rganish uchun tayyorlangan.</p>
+        </section>
+    </main>
+
+</body>
+</html>
